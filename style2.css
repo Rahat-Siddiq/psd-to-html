@@ -1,0 +1,151 @@
+/* Heading Work */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Menu Section */
+
+#menu-section{
+    margin-top: 30px;
+}
+.logo{
+    text-align: center;
+}
+.navbar{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+nav ul{
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    margin: 8px 15px;;
+}
+nav ul li:hover{
+    color: #0ba39c;
+}
+
+/* BGI Section */
+
+#bgi-section{
+    background-image: url("img/the-beacon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.fst{
+    width: 50%;
+    float: left;
+}
+.snd{
+    width: 50%;
+    float: right;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.snd h3{
+    background-color: #fff;
+    padding: 15px;
+    font-family: 'Poller One', cursive;
+    display: inline-block;
+}
+.snd p{
+    background-color: #252525;
+    color: white;
+    margin-top: 15px;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.snd button{
+    margin-top: 15px;
+    padding: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #0ba39c;
+}
+.snd button:hover{
+    background-color: #0ba39c;
+    color: white;
+    transition: 0.5s;
+}
+
+/* Photo Section */
+
+#photo-section{}
+.photo-cols{
+    margin-top: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.photo-collum{
+    display: inline-block;
+    float: left;
+    width: 31%;
+    text-align: center;
+    padding: 10px;
+}
+.photo-collum img{
+    width: 296px;
+    height: 238px;
+    border: 5px solid #252525;
+}
+.photo-collum img:hover{
+    width: 296px;
+    height: 238px;
+    border: 5px solid #0ba39c;
+}
+.photo-collum h2{
+    margin-top: 10px;
+}
+
+/* Footer Section */
+
+#footer-section{
+    background-color: #252525;
+    color: white;
+}
+.footer-cols{
+    /*padding: 10px 0px;*/
+}
+.footer-collum{
+    margin: 25px 0px;
+}
+.footer-cols .third{
+    display: inline-block;
+    width: 70%;
+    float: left;
+}
+.footer-cols .fourth{
+    display: inline-block;
+    width: 30%;
+    float: left;
+}
+.fourth a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 8px;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+.fourth a:hover{
+    color: #0ba39c;
+    border-color: #0ba39c;
+}
+
+
+
+
+
+
+
